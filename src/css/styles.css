@@ -6,6 +6,13 @@
 */
 @import url('./reset.css');
 
+.list {
+  font-size: 28px;
+  line-height: 1.5;
+}
+
+/* ------ */
+
 .section {
   margin-top: 12px;
 }
