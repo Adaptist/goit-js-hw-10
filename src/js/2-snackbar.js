@@ -26,14 +26,12 @@ document.querySelector('.form').addEventListener('submit', function(event) {
     promise
     .then((delay) => {
       iziToast.success({
-        title: "success",
         message: `✅ Fulfilled promise in ${delay}ms`
-      });
+      }, console.log(`✅ Fulfilled promise in ${delay}ms`));
     })
     .catch((delay) => {
       iziToast.error({
-        title: "error",
         message: `❌ Rejected promise in ${delay}ms`
-      });
+      }, console.log(`❌ Rejected promise in ${delay}ms`));
     });
   });
