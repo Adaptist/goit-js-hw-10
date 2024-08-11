@@ -17,7 +17,7 @@ const minutesEl = document.querySelector('[data-minutes]');
 const secondsEl = document.querySelector('[data-seconds]');
 
 let interval = null;
-startBtn.disabled = true
+startBtn.disabled = true;
 
 const options = {
     dateFormat: 'Y-m-d H:i',
